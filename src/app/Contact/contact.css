@@ -1,0 +1,48 @@
+.info{
+    border: 2px solid black;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 120px;
+}
+.contact{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.contact-inpt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-inpt input{
+    border:2px solid black;
+    width: 100%;
+    
+}
+.contact-inpt div{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 25%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact-inpt h3{
+    font-size: 1.4rem;
+}
+.contact textarea{
+    border: 2px solid black;
+    display: block;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+}
+.contact .btn{
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+}

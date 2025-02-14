@@ -1,0 +1,7 @@
+.home h1,h2,h3{
+    margin: auto;
+}
+.home .btn {
+    display: block;
+    margin: auto;
+}

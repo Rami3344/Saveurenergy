@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Adjust to fit your layout */
+    height: 650px; /* Define a height to ensure the carousel container has space */
+    overflow: hidden;
+    margin: auto;
+    margin-top: 6%;
+  }
+  
+  .carousel img {
+    width: 200%;
+    height: 100%; /* Ensure the images fill the height of the container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel img.active {
+    opacity: 1;
+    z-index: 1; /* Make the active image visible */
+  }
+  
+  .carousel img.inactive {
+    opacity: 0;
+    z-index: 0; /* Ensure inactive images are hidden */
+  }
